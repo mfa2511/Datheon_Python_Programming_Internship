@@ -1,0 +1,149 @@
+{
+  "assistant_name": "Nova Support",
+  "suggested_topics": [
+    "Business hours and contact information",
+    "Product information, features, and availability",
+    "Orders, shipping, and delivery tracking",
+    "Returns, refunds, and cancellations",
+    "Payment methods and billing",
+    "Account access and password help"
+  ],
+  "business_hours": {
+    "closed_message": "Please email support@example.com and our team will reply on the next working day.",
+    "schedule": {
+      "monday": {
+        "open": "09:00",
+        "close": "18:00"
+      },
+      "tuesday": {
+        "open": "09:00",
+        "close": "18:00"
+      },
+      "wednesday": {
+        "open": "09:00",
+        "close": "18:00"
+      },
+      "thursday": {
+        "open": "09:00",
+        "close": "18:00"
+      },
+      "friday": {
+        "open": "09:00",
+        "close": "18:00"
+      },
+      "saturday": {
+        "open": "10:00",
+        "close": "14:00"
+      },
+      "sunday": {
+        "closed": true
+      }
+    }
+  },
+  "intents": [
+    {
+      "name": "product_information",
+      "category": "products",
+      "patterns": [
+        "product details",
+        "tell me about the product",
+        "product features",
+        "what products do you sell",
+        "product availability",
+        "is this item available"
+      ],
+      "response": "I can help with product details, specifications, and availability. Please share the product name or SKU so I can give you the most relevant information."
+    },
+    {
+      "name": "order_status",
+      "category": "orders",
+      "patterns": [
+        "track my order",
+        "order status",
+        "where is my order",
+        "delivery status",
+        "order tracking",
+        "has my order shipped"
+      ],
+      "response": "To check an order, have your order ID ready and contact support@example.com. For privacy, do not share full payment-card details or passwords in this chat."
+    },
+    {
+      "name": "shipping_delivery",
+      "category": "orders",
+      "patterns": [
+        "shipping cost",
+        "delivery time",
+        "how long delivery",
+        "shipping policy",
+        "do you deliver",
+        "delivery charges"
+      ],
+      "response": "Delivery estimates and charges depend on the destination and item. Share your delivery PIN code and product name with our support team for an accurate estimate."
+    },
+    {
+      "name": "returns_refunds",
+      "category": "returns",
+      "patterns": [
+        "return policy",
+        "refund status",
+        "return an item",
+        "exchange product",
+        "cancel my order",
+        "how to get refund"
+      ],
+      "response": "For a return or exchange, keep your order ID and item details ready. Eligibility and refund timing depend on the item and its condition. Contact support@example.com to start a verified request."
+    },
+    {
+      "name": "payment_methods",
+      "category": "payments",
+      "patterns": [
+        "payment methods",
+        "how can i pay",
+        "payment options",
+        "upi payment",
+        "card payment",
+        "cash on delivery",
+        "payment failed"
+      ],
+      "response": "Available payment methods can vary by checkout. Never send your card number, CVV, UPI PIN, or OTP in chat. If a payment was debited but the order was not created, contact support with the transaction reference only."
+    },
+    {
+      "name": "account_help",
+      "category": "account",
+      "patterns": [
+        "forgot password",
+        "reset password",
+        "cannot login",
+        "account locked",
+        "change email",
+        "login problem"
+      ],
+      "response": "Use the 'Forgot password' option on the sign-in page. If you no longer have access to your registered email, contact support so the team can verify account ownership."
+    },
+    {
+      "name": "contact_support",
+      "category": "support",
+      "patterns": [
+        "contact support",
+        "customer care number",
+        "speak to human",
+        "talk to agent",
+        "support email",
+        "contact details"
+      ],
+      "response": "You can reach the support team at support@example.com. Replace this sample address with your real business support email before publishing the project."
+    },
+    {
+      "name": "feedback",
+      "category": "feedback",
+      "patterns": [
+        "give feedback",
+        "submit a complaint",
+        "share feedback",
+        "service complaint",
+        "report a problem"
+      ],
+      "response": "Thank you for helping us improve. Please email support@example.com with a short description of the issue and, if relevant, your order ID. Avoid including passwords or payment secrets."
+    }
+  ]
+}
