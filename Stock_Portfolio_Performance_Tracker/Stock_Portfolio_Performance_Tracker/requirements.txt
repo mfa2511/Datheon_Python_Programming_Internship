@@ -1,0 +1,2 @@
+# Optional dependency for live stock quotes
+yfinance>=0.2.40

@@ -1,0 +1,3 @@
+timestamp,record_type,symbol,company,shares,buy_price,current_price,invested_value,market_value,gain_loss,gain_loss_pct,price_source
+2026-11-01T18:39:44+05:30,HOLDING,AES,AES Corporation,5.000000,120.0000,130.0000,600.00,650.00,50.00,8.3333,manually entered
+2026-11-01T18:39:44+05:30,PORTFOLIO_TOTAL,TOTAL,All holdings,,,,600.00,650.00,50.00,8.3333,combined holdings
